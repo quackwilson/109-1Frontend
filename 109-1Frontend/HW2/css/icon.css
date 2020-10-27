@@ -1,0 +1,279 @@
+.phone
+{
+    background-image: url(../img/IMG_20201018_213232_684.jpg);
+    z-index: -100;
+    display: inline-block;
+}
+
+.phone-img
+{
+    height: 795px;
+    width: 372px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.facebook
+{
+    background-image: url(../img/icon/facebook.jpg);
+    background-size: 115%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 95px;
+    margin-left: 42px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.instagram
+{
+    background-image: url(../img/icon/instagram.png);
+    background-size: 355%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 0px;
+    margin-left: 22px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.google
+{
+    background-image: url(../img/icon/google.jpg);
+    background-size: 180%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 42px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.line
+{
+    background-image: url(../img/icon/line.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 0px;
+    margin-left: 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.msg
+{
+    background-image: url(../img/icon/msg.png);
+    background-size: 150%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 0px;
+    margin-left: 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.youtube
+{
+    background-image: url(../img/icon/youtube.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: -5px;
+    margin-left: 22px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.drive
+{
+    background-image: url(../img/icon/drive.png);
+    background-size: 165%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: -3px;
+    margin-left: 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.twitter
+{
+    background-image: url(../img/icon/twitter.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: -8px;
+    margin-left: 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.i-phone
+{
+    background-image: url(../img/icon/phone.jpg);
+    background-size: 115%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 448px;
+    margin-left: 42px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.message
+{
+    background-image: url(../img/icon/message.jpg);
+    background-size: 250%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 448px;
+    margin-left: 20px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.mail
+{
+    background-image: url(../img/icon/mail.jpg);
+    background-size: 200%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 448px;
+    margin-left: 22px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.safari
+{
+    background-image: url(../img/icon/safari.png);
+    background-size: 115%;
+    background-repeat:no-repeat;
+    z-index: 1;
+    height: 53px; 
+    width: 53px; 
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 448px;
+    margin-left: 22px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.forfonts
+{
+    background-color: transparent;
+    z-index: 0;
+    height: 795px;
+    width: 372px;
+    margin-top: -795px;
+}
+
+.fonts
+{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.facebook-f
+{
+    margin-left: 43px;
+    margin-top: 155px;
+}
+
+.msg-f
+{
+    margin-left: 115px;
+    margin-top: -15px;
+}
+
+.instagram-f
+{
+    margin-left: 197px;
+    margin-top: -13px;
+}
+
+.line-f
+{
+    margin-left: 290px;
+    margin-top: -13px;
+}
+
+.google-f
+{
+    margin-left: 48px;
+    margin-top: 72px;
+}
+
+.drive-f
+{
+    margin-left: 122px;
+    margin-top: -15px;
+}
+
+.drive-f
+{
+    margin-left: 122px;
+    margin-top: -15px;
+}
+
+.youtube-f
+{
+    margin-left: 202px;
+    margin-top: -15px;
+}
+
+.twitter-f
+{
+    margin-left: 285px;
+    margin-top: -13px;
+}
