@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最強算命系統</title>
+    <script src='./assets/vendor/boostrap/js/bootstrap.js'></script>
+    <link type="text/css" rel="stylesheet" href="./assets/vendor/boostrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row justify-content-around">
+          <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">你的名字</label>
+                <input type="text" class="form-control" id="name" placeholder="例子：黃小明">
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">你的生日</label>
+                <input type="date" class="form-control" id="birthday">
+            </div>
+        </div>
+
+        <div class="row">
+            今天您想要算的運勢種類是什麼呢？
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" value="study" type="radio" name="type" id="study">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    學業
+                    </label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" value="love" type="radio" name="type" id="love">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    愛情
+                    </label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" value="work" type="radio" name="type" id="work">
+                    <label class="form-check-label" for="flexRadioDefault3">
+                    事業
+                    </label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" value="money" type="radio" name="type" id="money">
+                    <label class="form-check-label" for="flexRadioDefault4">
+                    財運
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" id="startCount" class="btn btn-danger">開始算命</button>
+        </div>
+    </div>
+    <script src='./assets/js/jquery.js'></script>
+    <script src='./assets/js/index.js'></script>
+</body>
+</html>
