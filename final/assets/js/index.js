@@ -14,7 +14,7 @@ $('#startCount').on('click',function(){
         localStorage.setItem('username',username);
         localStorage.setItem('birthday',birthday);
         localStorage.setItem('type',type);
-        window.location.href = '/second.html';
+        window.location.href = './second.html';
     }
   
 })
