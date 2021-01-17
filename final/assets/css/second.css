@@ -1,0 +1,84 @@
+body{
+    font-family: 'FangSong', Times, serif;
+    font-weight:bold;
+}
+
+.main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 5%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgba(255,255,255, 1);
+}
+
+.bg{
+    background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.buttonAllign{
+    text-align: center;
+}
+
+.result{
+    max-width: 800px;
+}
+
+.luck_logo {
+    max-width: 5%;
+    margin-left: 0.5%;
+    margin-left: 0.5%;
+}
+
+.changeLuck{
+    border-radius: 5px;
+    background-color: rgba(255,0,0, 0.5);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top:  2%;
+    padding-bottom: 2%;
+    max-width: 70%;
+    margin: auto;
+}
+
+.anotherLuck{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top:  2%;
+    padding-bottom: 2%;
+    max-width: 70%;
+    margin: auto;
+}
+
+.centerBox{
+    text-align: center;
+}
+
+.bigTitle{
+    font-size: 400%;
+    text-align: center;
+}
+
+.smallTitle{
+    font-size: 100%;
+}
+
+.mediumTitle{
+    font-size: 150%;
+    text-align: center;
+}
+
+.buttonTitle{
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+}
+
+.result{
+    width: 100%;
+}

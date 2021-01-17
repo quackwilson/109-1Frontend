@@ -1,0 +1,49 @@
+body{
+    font-family: 'FangSong', Times, serif;
+    font-weight:bold;
+}
+
+.main{
+    margin-top: 7.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 5%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgba(255,255,255, 1);
+}
+
+.bg{
+    background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.centerBox{
+    text-align: center;
+}
+
+.bigTitle{
+    font-size: 400%;
+    text-align: center;
+}
+
+.smallTitle{
+    font-size: 150%;
+}
+
+.mediumTitle{
+    font-size: 150%;
+    text-align: center;
+}
+
+.buttonAllign{
+    text-align: center;
+}
+
+.buttonTitle{
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+}

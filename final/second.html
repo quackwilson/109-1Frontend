@@ -6,32 +6,104 @@
     <title>最強算命系統</title>
     <script src='./assets/vendor/boostrap/js/bootstrap.js'></script>
     <link type="text/css" rel="stylesheet" href="./assets/vendor/boostrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/second.css">
 </head>
-<body>
-    <div class="container">
-        <div class="row justify-content-around">
-          <div class="col">
-            您好，<span id="display_username"></span>。您出生於<span id="display_birthday"></span>，今年<span id="display_years_old"></span>歲。您算的運勢種類是「<span id="display_type"></span>」。
-          </div>
+<body class="bg">
+    <div class="main">
+        <div class="container bigTitle">
+            最強算命系統
         </div>
         <br>
-        <div class="row">
-            這是您的抽籤結果：
-        </div>
-        <br>
-        <div class="row">
-            運勢：
-        </div>
-        <br>
-        <div class="row">
-            運勢解析：
-        </div>
-        <br>
-        <div class="row">
-            滿意您的運勢結果嗎？不滿意的話試試看逆天改命吧！但是不保證有效喔...
-            <button type="button" class="btn btn-danger">逆天改命</button>
+        <div class="container">
+            <div class="row justify-content-around mediumTitle">
+              <div class="col">
+                  您好，<span id="display_username"></span>。您出生於<span id="display_birthday"></span>年<span id="display_birthmonth"></span>月<span id="display_birthdate"></span>日，今年<span id="display_years_old"></span>歲。您算的運勢種類是「<span id="display_type"></span>」。
+              </div>
+            </div>
+            <br>
+            <div class="row mediumTitle">
+                <div class="buttonAllign">
+                    運勢指數:
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="buttonAllign" id="logo_amount"></div>
+            </div>
+            <br>
+            <div class="row smallTitle">
+                <div class="buttonAllign">
+                    <img src="assets/img/money02.png" id="result_img" class="result">
+                </div>
+            </div>
+            <br>
+            <div class="row mediumTitle">
+                <div class="buttonAllign">
+                    運勢解析:
+                </div>
+            </div>
+            <div class="row">
+                <div class="buttonAllign">
+                    <span id="display_detail"></span>
+                </div>
+            </div>
+            <br>
+            
+            <div class="changeLuck" id="chaLuck">
+                <div class="buttonAllign">
+                    滿意您的運勢結果嗎？不滿意的話試試看逆天改命吧！但是不保證有效喔...
+                </div>
+                <br>
+                <div class="buttonAllign">
+                    <button type="button" id="changeLuck" class="btn btn-danger buttonTitle">逆天改命</button>
+                </div>
+            </div>
+            <br>
+            <div class="anotherLuck mediumTitle">
+                <div class="buttonAllign">
+                    也可以再算另外一種運勢哦！
+                </div>
+                <br>
+                <div class="row" id="recount_area">
+                    <div class="col smallTitle">
+                        <span class="centerBox">
+                            <div class="form-check">
+                                <input class="form-check-input" value="study" type="radio" name="recount_type" id="study">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                學業
+                                </label>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="col smallTitle">
+                        <span class="centerBox">
+                            <div class="form-check">
+                                <input class="form-check-input" value="love" type="radio" name="recount_type" id="love">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                愛情
+                                </label>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="col smallTitle">
+                        <span class="centerBox">
+                            <div class="form-check">
+                                <input class="form-check-input" value="work" type="radio" name="recount_type" id="work">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                事業
+                                </label>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <br>
+                <div class="buttonAllign">
+                    <button type="button" id="recount" class="btn btn-primary buttonTitle">再次算命</button>
+                </div>
+            </div>
         </div>
     </div>
+    
     <script src='./assets/js/jquery.js'></script>
     <script src="assets/js/second.js"></script>
     
