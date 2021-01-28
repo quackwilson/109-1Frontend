@@ -1,4 +1,4 @@
-# quackwilson.github.io/109-1Frontend
+# National Taiwan University 109-1 Frontend Programming (GenEdu5007)
 ## Homework
 * [HW1](https://quackwilson.github.io/109-1Frontend/Homework/HW1/)
 * [HW2](https://quackwilson.github.io/109-1Frontend/Homework/HW2/)
