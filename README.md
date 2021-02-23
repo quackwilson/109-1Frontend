@@ -5,4 +5,4 @@
 * [HW3](https://quackwilson.github.io/109-1Frontend/Homework/HW3/)
 
 ## Final Project
-* [Project-最強算命系統](https://quackwilson.github.io/109-1Fronted/final/)
+* [Project-最強算命系統](https://quackwilson.github.io/109-1Fronted/final/index.html)
