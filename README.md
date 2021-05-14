@@ -3,9 +3,9 @@ HTML, CSS and JavaScript are essential technologies for current web front-end de
 <br>
 This course is a basic course. It adopts the practical teaching of the computer. It is necessary to bring your own laptop to follow the step-by-step operation, so that students have the ability to write front-end programs and understand the concepts and operating methods of front-end web pages.
 ## Homework
-* [HW1](https://quackwilson.github.io/109-1_Frontend/Homework/HW1/)
-* [HW2](https://quackwilson.github.io/109-1_Frontend/Homework/HW2/)
-* [HW3](https://quackwilson.github.io/109-1_Frontend/Homework/HW3/)
+* [HW1](https://quackwilson.github.io/Frontend_Programming/Homework/HW1/)
+* [HW2](https://quackwilson.github.io/Frontend_Programming/Homework/HW2/)
+* [HW3](https://quackwilson.github.io/Frontend_Programming/Homework/HW3/)
 
 ## Final Project
-* [Project-最強算命系統](https://quackwilson.github.io/109-1_Frontend/final/index.html)
+* [Project-最強算命系統](https://quackwilson.github.io/Frontend_Programming/final/index.html)
